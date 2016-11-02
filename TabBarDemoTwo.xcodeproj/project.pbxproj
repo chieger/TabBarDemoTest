@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		ECFEA7DB1DC986C900D98B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFEA7DA1DC986C900D98B15 /* AppDelegate.swift */; };
-		ECFEA7DD1DC986C900D98B15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFEA7DC1DC986C900D98B15 /* ViewController.swift */; };
 		ECFEA7E01DC986C900D98B15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFEA7DE1DC986C900D98B15 /* Main.storyboard */; };
 		ECFEA7E21DC986C900D98B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECFEA7E11DC986C900D98B15 /* Assets.xcassets */; };
 		ECFEA7E51DC986C900D98B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFEA7E31DC986C900D98B15 /* LaunchScreen.storyboard */; };
 		ECFEA7F01DC986C900D98B15 /* TabBarDemoTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFEA7EF1DC986C900D98B15 /* TabBarDemoTwoTests.swift */; };
 		ECFEA7FB1DC986C900D98B15 /* TabBarDemoTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFEA7FA1DC986C900D98B15 /* TabBarDemoTwoUITests.swift */; };
+		ECFEA8091DC987F100D98B15 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFEA8081DC987F100D98B15 /* TabBarViewController.swift */; };
+		ECFEA80B1DC98EAA00D98B15 /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFEA80A1DC98EAA00D98B15 /* RedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		ECFEA7D71DC986C900D98B15 /* TabBarDemoTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarDemoTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFEA7DA1DC986C900D98B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECFEA7DC1DC986C900D98B15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ECFEA7DF1DC986C900D98B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECFEA7E11DC986C900D98B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECFEA7E41DC986C900D98B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		ECFEA7F61DC986C900D98B15 /* TabBarDemoTwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarDemoTwoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFEA7FA1DC986C900D98B15 /* TabBarDemoTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarDemoTwoUITests.swift; sourceTree = "<group>"; };
 		ECFEA7FC1DC986C900D98B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECFEA8081DC987F100D98B15 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		ECFEA80A1DC98EAA00D98B15 /* RedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +100,12 @@
 			isa = PBXGroup;
 			children = (
 				ECFEA7DA1DC986C900D98B15 /* AppDelegate.swift */,
-				ECFEA7DC1DC986C900D98B15 /* ViewController.swift */,
 				ECFEA7DE1DC986C900D98B15 /* Main.storyboard */,
 				ECFEA7E11DC986C900D98B15 /* Assets.xcassets */,
 				ECFEA7E31DC986C900D98B15 /* LaunchScreen.storyboard */,
 				ECFEA7E61DC986C900D98B15 /* Info.plist */,
+				ECFEA8081DC987F100D98B15 /* TabBarViewController.swift */,
+				ECFEA80A1DC98EAA00D98B15 /* RedViewController.swift */,
 			);
 			path = TabBarDemoTwo;
 			sourceTree = "<group>";
@@ -262,7 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECFEA7DD1DC986C900D98B15 /* ViewController.swift in Sources */,
+				ECFEA8091DC987F100D98B15 /* TabBarViewController.swift in Sources */,
+				ECFEA80B1DC98EAA00D98B15 /* RedViewController.swift in Sources */,
 				ECFEA7DB1DC986C900D98B15 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
