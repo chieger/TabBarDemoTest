@@ -21,6 +21,8 @@ class TabBarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print("haello")
+
         containerView.contentSize = CGSize(width: containerView.frame.size.width * 3, height: containerView.frame.size.height)
 
         let main = UIStoryboard(name: "Main", bundle: nil)
